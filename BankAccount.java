@@ -26,6 +26,7 @@ public class BankAccount{
             System.out.println("YOUR WITHDRAW AMOUNT IS GREATER THAN YOUR ACCOUNT BALANCE");
         }
         else
+            
         {
             this.account_balance=this.account_balance-removeMoney;
             System.out.println("Rs."removeMoney + "HAS BEEN WITHDRAWNED FROM YOUR ACCOUNT NUMBER");
